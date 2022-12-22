@@ -94,6 +94,17 @@ function makeScriptHub()
                   loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0shopping2", true))()
           end    
     })
+    Main:AddButton({
+        Name = "Coins",
+        Callback = function()
+                  _G.configs = {
+   autoserverhop = true,
+   nonametag = true
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/Amity/main/RBBattles.lua"))()
+          end    
+    })
 end
 function CorrectKeyNotification()
     OrionLib:MakeNotification({
