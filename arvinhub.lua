@@ -1,5 +1,5 @@
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    local Window = OrionLib:MakeWindow({Name = "Arv9nHUB RBBattles", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",IntroEnabled = true, IntroText = "ArvinHUB", IntroIcon = "rbxassetid://10487475827"})
+    local Window = OrionLib:MakeWindow({Name = "Arv9nHUB RBBattles", HidePremium = true, SaveConfig = false, ConfigFolder = "Arv9nHUB",IntroEnabled = false, IntroText = "ArvinHUB", IntroIcon = "rbxassetid://10487475827"})
     local Main = Window:MakeTab({
         Name = "Main",
         Icon = "rbxassetid://279461711",
